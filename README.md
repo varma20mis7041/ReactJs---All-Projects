@@ -3,4 +3,5 @@ This repository contains all the web pages that I have developed as part of assi
 
 Links for all the projects and web pages 
 
-001) Reusable banner -  [[Link]](http://bvreactjs01.ccbp.tech)
+001) Reusable banner       -  [[Link]](http://bvreactjs01.ccbp.tech)
+002) Technology cards      -  [[Link]](http://bvreactjs2.ccbp.tech)
