@@ -1,0 +1,17 @@
+/* Write your CSS here */
+* {
+  box-sizing: border-box;
+}
+.destination_img {
+  height: 140px;
+  width: 180px;
+}
+.destination_heading {
+  font-size: 10px;
+  font-family: 'Roboto';
+  font-weight: 500;
+}
+.each_destination_place_card_container {
+  margin: 10px;
+  list-style: none;
+}
