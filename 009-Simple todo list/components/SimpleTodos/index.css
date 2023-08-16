@@ -1,0 +1,37 @@
+/* Write your CSS here */
+.bg_container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffc2a0;
+}
+.list_card_container {
+  background-color: #ffffff;
+  border-radius: 10px;
+  height: 85vh;
+  width: 76vw;
+  padding: 40px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  list-style: none;
+}
+.simple_todo_heading {
+  font-size: 30px;
+  font-family: 'Roboto';
+  text-align: center;
+  color: #ff8542;
+  font-weight: 500;
+}
+
+@media screen and (max-width: 768px) {
+  .list_card_container {
+    height: 90vh;
+    width: 83vw;
+    padding: 20px;
+  }
+  .simple_todo_heading {
+    font-size: 24px;
+  }
+}
