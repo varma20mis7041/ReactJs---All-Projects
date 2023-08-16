@@ -1,0 +1,20 @@
+/* Write your CSS here */
+.value_button {
+  height: 30px;
+  width: 140px;
+  margin-bottom: 15px;
+  background-color: #382f5a;
+  color: #c4c4c4;
+  cursor: pointer;
+  outline: none;
+  border-width: 2px;
+  border-color: #c4c4c4;
+}
+.list_item {
+  list-style: none;
+}
+@media screen and (max-width: 768px) {
+  .value_button {
+    width: 100px;
+  }
+}
