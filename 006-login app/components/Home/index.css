@@ -1,0 +1,26 @@
+/* Write your CSS here */
+.bg_container {
+  min-height: 100vh;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.login_logout_page_card_container {
+  background-image: linear-gradient(to bottom, #2b2c49, #b5b9ff);
+  min-height: 70vh;
+  min-width: 70vw;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+@media screen and (max-width: 768px) {
+  .login_logout_page_card_container {
+    min-height: 60vh;
+    min-width: 100vw;
+  }
+}
