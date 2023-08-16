@@ -1,0 +1,53 @@
+/* Write your CSS here */
+.bg_container {
+  min-height: 100vh;
+  background-color: #ffffff;
+  padding: 80px;
+}
+@media screen and (max-width: 768px) {
+  .bg_container {
+    padding-top: 60px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 60px;
+  }
+}
+.counter_bg_counter {
+  background-image: linear-gradient(to bottom, #ff6e7f, #bfe9ff);
+  min-height: 70vh;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.instruction_text {
+  font-size: 8px;
+  font-family: 'Roboto';
+  color: #1e293b;
+}
+.count_value {
+  font-size: 36px;
+  font-family: 'Roboto';
+  color: #0f172a;
+}
+@media screen and (max-width: 768px) {
+  .count_value {
+    font-size: 28px;
+  }
+}
+.count_status {
+  font-size: 23px;
+  font-family: 'Roboto';
+  color: #334155;
+}
+.increment_button {
+  width: 100px;
+  height: 28px;
+  background-color: #ffffff;
+  border-radius: 5px;
+  color: #1e293b;
+  border-width: 0px;
+  font-size: 12px;
+  font-family: 'Roboto';
+}
