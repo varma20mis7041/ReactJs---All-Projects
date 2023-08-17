@@ -19,3 +19,4 @@ Links for all the projects and web pages
 014) Gallery app- [[Link]](http://bvreactjs14.ccbp.tech)
 015) Capitals App - [[Link]](http://bvreactjs15.ccbp.tech)
 016) App Store App - [[Link]](http://bvreactjs16.ccbp.tech)
+017) Coin Toss    - [[Link]](http://bvreactjs17.ccbp.tech)
