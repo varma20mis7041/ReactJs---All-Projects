@@ -1,0 +1,48 @@
+/* Write your code here. */
+* {
+  box-sizing: border-box;
+}
+.photography_card_background_container {
+  max-height: 100vh;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px 50px 30px 50px;
+}
+.image_element {
+  height: 60vh;
+  width: 60vw;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+}
+@media screen and (max-width: 768px) {
+  .photography_card_background_container {
+    padding: 10px 10px 10px 10px;
+  }
+  .image_element {
+    height: 30vh;
+    width: 90vw;
+  }
+}
+.main_heading_element {
+  font-size: 26px;
+  font-family: 'Roboto';
+  font-weight: 500;
+  color: #1e293b;
+  align-self: flex-start;
+}
+.page_description {
+  font-size: 10px;
+  font-family: 'Roboto';
+  color: #64748b;
+  align-self: flex-start;
+  margin-top: 0px;
+}
+.thumbnail_images_list_container {
+  align-self: flex-start;
+  display: flex;
+  width: 80vw;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
