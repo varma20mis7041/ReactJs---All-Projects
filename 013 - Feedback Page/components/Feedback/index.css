@@ -1,0 +1,62 @@
+/* Write your CSS code here. */
+.feedback_page_background_container {
+  min-height: 100vh;
+  background-image: linear-gradient(to Right, #ffeeee, #ffc0bb);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.feedback_page_card_container {
+  height: 60vh;
+  width: 40vw;
+  background-color: #ffebeb;
+  border-radius: 10px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.feedback_main_heading {
+  font-size: 20px;
+  text-align: center;
+  font-weight: 500;
+  font-family: 'Roboto';
+  color: #0f172a;
+}
+.emoji_ul_container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  list-style: none;
+  width: 30vw;
+  margin-top: 10px;
+}
+.thank_you_page_background_container {
+  height: 60vh;
+  width: 40vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffebeb;
+  border-radius: 10px;
+  padding: 30px;
+}
+.love_img {
+  height: 40px;
+  width: 40px;
+}
+.thank_you_heading {
+  font-size: 26px;
+  font-weight: 500;
+  color: #0f172a;
+  font-family: 'Roboto';
+}
+.thank_you_page_discription {
+  font-size: 13px;
+  font-family: 'Roboto';
+  color: #1e293b;
+  text-align: center;
+  font-weight: 400;
+}
