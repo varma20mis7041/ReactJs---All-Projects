@@ -1,0 +1,52 @@
+/* Write your CSS here */
+.countries_and_capitals_background_container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #93c5fd;
+}
+.countries_and_capitals_card_container {
+  min-height: 40vh;
+  min-width: 40vw;
+  padding: 20px;
+  padding-left: 30px;
+  background-color: #f8fafc;
+  border-radius: 10px;
+}
+.page_main_heading {
+  font-size: 25px;
+  font-family: 'Roboto';
+  font-weight: 600;
+  color: #323f4b;
+}
+.select_element {
+  height: 30px;
+  width: 120px;
+  padding: 5px;
+  outline: none;
+}
+.select_option_label_element {
+  margin-left: 5px;
+  font-size: 12px;
+  font-family: 'Roboto';
+  color: #000000;
+}
+.country_element {
+  font-size: 18px;
+  font-family: 'Roboto';
+  font-weight: 500;
+  color: #1e293b;
+  margin-top: 20px;
+}
+@media screen and (max-width:768px){
+    .page_main_heading{
+        font-size: 20px;
+    }
+    .country_element{
+        font-size: 15px;
+    }
+    .select_option_label_element{
+        font-size: 12px;
+    }
+}
