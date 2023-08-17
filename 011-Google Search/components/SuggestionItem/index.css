@@ -1,0 +1,22 @@
+/* Write your CSS here */
+* {
+  box-sizing: border-box;
+}
+.arrow_icon_image_element {
+  height: 17px;
+  width: 17px;
+  cursor: pointer;
+}
+.suggestion_item_container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.suggestion_text {
+  font-size: 13px;
+  font-family: 'Roboto';
+  color: #475569;
+  margin: 7px;
+  font-weight: 400;
+}
