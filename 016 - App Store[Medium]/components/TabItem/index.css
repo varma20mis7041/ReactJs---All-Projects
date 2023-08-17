@@ -1,0 +1,16 @@
+/* Write your CSS here */
+.tab_button {
+  background-color: transparent;
+  border-width: 0px;
+  color: #7b8794;
+  width: 80px;
+  cursor: pointer;
+  border-bottom-width: 2px;
+  border-color: transparent;
+  
+}
+.selected_tab {
+  color: #2563eb;
+  padding-bottom: 5px;
+  border-color: #2563eb;
+}
