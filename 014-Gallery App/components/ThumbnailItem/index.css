@@ -1,0 +1,16 @@
+/* Write your code here. */
+.thumbnail_img {
+  height: 30px;
+  width: 30px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+.blur_effect {
+  opacity: 0.5;
+}
+.image_button {
+  background: none;
+  border: none;
+  padding: 0;
+}
