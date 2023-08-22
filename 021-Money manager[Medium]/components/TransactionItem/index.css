@@ -1,0 +1,45 @@
+/* Write your CSS here */
+
+.transaction_container {
+  font-size: 14px;
+  font-family: 'Roboto';
+  font-weight: 400;
+  color: #1e293b;
+  border: 1px solid #7e858e;
+  border-top-width: 0px;
+  padding: 15px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 20px;
+}
+.transaction_title {
+  width: 14vw;
+}
+.transaction_amount {
+  width: 14vw;
+}
+.transaction_type {
+  width: 12vw;
+}
+@media screen and (max-width: 768px) {
+  .transaction_title {
+    width: 20vw;
+  }
+  .transaction_amount {
+    width: 25vw;
+  }
+  .transaction_type {
+    width: 20vw;
+  }
+}
+.delete_button {
+  background-color: transparent;
+  padding: 0px;
+  border-width: 0px;
+}
+.delete_img {
+  height: 15px;
+  width: 15px;
+  cursor: pointer;
+}
