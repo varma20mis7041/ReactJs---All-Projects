@@ -1,0 +1,55 @@
+/* Write your CSS here */
+.detailed_money_section_img_icons {
+  height: 60px;
+  width: 60px;
+}
+.detailed_money_card_container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 28vw;
+  border-radius: 10px;
+  border: 1px solid;
+}
+.money_details_card_container {
+  height: 20vh;
+  width: 90vw;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+@media screen and (max-width: 768px) {
+  .money_details_card_container {
+    flex-direction: column;
+    height: 60vh;
+  }
+  .detailed_money_card_container{
+      width: 90vw;
+      justify-content: space-evenly;
+  }
+}
+.balance_container {
+  background-color: #ecfccb;
+  border-color: #84cc16;
+}
+.income_container {
+  background-color: #cffafe;
+  border-color: #06b6d4;
+}
+.expenses_container {
+  background-color: #ede9fe;
+  border-color: #06b6d4;
+}
+.money_type {
+  font-family: 'Roboto';
+  font-size: 14px;
+  color: #475569;
+}
+.money {
+  font-family: 'Roboto';
+  font-size: 17px;
+  font-weight: 400;
+  color: #475569;
+}
