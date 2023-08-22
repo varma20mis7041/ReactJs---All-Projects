@@ -1,0 +1,17 @@
+.last-container {
+  text-align: center;
+  background-color: black;
+  color: white;
+  font-family: Roboto;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (max-width: 600px) {
+  .last-container {
+    height: 40px;
+    font-size: 12px;
+  }
+}
