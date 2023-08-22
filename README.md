@@ -1,5 +1,5 @@
 # ReactJs---All-Projects
-This repository contains all the web pages that I have developed as part of assignments in the process of learning REACT JS . All web pages or projects cover all react js topics more than twice. each folder is a coding practice and I mentioned it as an assignment if it is not a coding practice. I also arranged them in order based on my learning journey
+This repository contains all the web pages I have developed as part of assignments in learning REACT JS. All web pages or projects cover all react js topics more than twice. each folder is a coding practice and I mentioned it as an assignment if it is not a coding practice. I also arranged them in order based on my learning journey
 
 Links for all the projects and web pages 
 
@@ -23,4 +23,5 @@ Links for all the projects and web pages
 018) Review Carousel    - [[Link]](http://bvreactjs18.ccbp.tech)
 019) Comments App    - [[Link]](http://bvreactjs19.ccbp.tech)
 020) Appointments App    - [[Link]](http://bvreactjs20.ccbp.tech)
+021) Money Manager    - [[Link]](http://bvreactjs21.ccbp.tech)
 
