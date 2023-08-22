@@ -1,0 +1,176 @@
+/* Write your CSS here */
+
+.money_manager_bg_container {
+  min-height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 20px 20px 20px 40px;
+}
+.money_manager_card_container {
+  display: flex;
+  flex-direction: column;
+}
+.money_manager_top_card_section {
+  height: 30vh;
+  width: 90vw;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/money-manager/money-manager-bg.png');
+  background-size: cover;
+  border-radius: 7px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 5px 30px 5px 30px;
+}
+@media screen and (max-width: 768px) {
+  .money_manager_top_card_section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+.money_manager_main_heading {
+  font-size: 25px;
+  font-family: 'Roboto';
+  font-weight: 600;
+  margin-bottom: 0px;
+  color: #475569;
+}
+.money_manager_paragraph {
+  font-size: 17px;
+  font-family: 'Roboto';
+  color: #475569;
+  margin-bottom: 0px;
+}
+@media screen and (max-width: 768px) {
+  .money_manager_paragraph {
+    font-size: 13px;
+  }
+}
+.money_manager_text_span_element {
+  color: #0b69ff;
+  font-weight: 600;
+}
+.money_manager_bottom_section {
+  margin-top: 40px;
+  width: 90vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+@media screen and (max-width: 768px) {
+  .money_manager_bottom_section {
+    flex-direction: column;
+  }
+}
+.money_managing_form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 20px 15px 20px 15px;
+  border: 1px solid #7e858e;
+  width: 35vw;
+  height: 60vh;
+  border-radius: 10px;
+}
+@media screen and (max-width: 768px) {
+  .money_managing_form {
+    width: 90vw;
+    margin-bottom: 20px;
+  }
+}
+.add_button {
+  height: 25px;
+  width: 50px;
+  font-size: 13px;
+  font-family: 'Roboto';
+  font-weight: 500;
+  border-width: 0px;
+  color: #ffffff;
+  background-color: #0b69ff;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.form_heading {
+  font-size: 22px;
+  font-weight: 500;
+  color: #1e293b;
+  font-family: 'Roboto';
+}
+.form_elements_container {
+  display: flex;
+  flex-direction: column;
+}
+.form_label_heading_element {
+  font-size: 11px;
+  font-family: 'Roboto';
+  color: #475569;
+  margin-bottom: 3px;
+}
+.form_input_element {
+  height: 30px;
+  outline: none;
+  padding: 3px;
+  font-size: 10px;
+  font-family: 'Roboto';
+  font-weight: 400;
+}
+.history_container {
+  min-height: 60vh;
+  width: 45vw;
+  border: 1px solid #7e858e;
+  border-radius: 10px;
+}
+@media screen and (max-width: 768px) {
+  .history_container {
+    width: 90vw;
+  }
+}
+.history_container {
+  padding: 30px 30px 30px 30px;
+}
+.history_main_heading_element {
+  font-size: 20px;
+  font-family: 'Roboto';
+  font-weight: 500;
+  color: #1e293b;
+}
+.history_card_top_row_container {
+  font-size: 15px;
+  font-family: 'Roboto';
+  font-weight: 500;
+  color: #1e293b;
+  border: 1px solid #7e858e;
+  padding: 15px;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 0px;
+  align-items: center;
+  height: 20px;
+}
+.history_title {
+  width: 12vw;
+}
+.history_amount {
+  width: 12vw;
+}
+.history_type {
+  width: 12vw;
+}
+.ul_element {
+  list-style-type: none;
+  padding: 0px;
+  margin-top: 0px;
+}
+@media screen and (max-width: 768px) {
+  .history_title {
+    width: 17.5vw;
+  }
+  .history_amount {
+    width: 21.5vw;
+  }
+  .history_type {
+    width: 20vw;
+  }
+}
