@@ -1,0 +1,73 @@
+/* Write your code here. */
+.navbar_container {
+  padding: 20px 80px 20px 80px;
+  height: 11vh;
+  width: 99vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-image: linear-gradient(to Right, #b2a7eb, #c8b5e7);
+  color: #ffffff;
+  align-items: center;
+}
+@media screen and (max-width:400px){
+    .navbar_container{
+        padding: 10px;
+    }
+}
+.heading_logo_container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  width: 50vw;
+}
+.score_container {
+  display: flex;
+  flex-direction: row;
+  width: 50vw;
+  justify-content: space-evenly;
+}
+.logo_element {
+  height: 35px;
+  width: 35px;
+}
+.emoji_game_heading {
+  font-size: 25px;
+  font-family: 'Roboto';
+  font-weight: 600;
+}
+@media screen and (max-width: 768px) {
+  .logo_element {
+    height: 25px;
+    width: 25px;
+  }
+  .emoji_game_heading {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .logo_element {
+    height: 15px;
+    width: 15px;
+  }
+  .emoji_game_heading {
+    font-size: 15px;
+  }
+  .score_element {
+    font-size: 13px;
+  }
+  .total_score_element {
+    font-size: 13px;
+  }
+}
+.score_element {
+  font-size: 17px;
+  font-family: 'Roboto';
+  font-weight: 600;
+}
+.total_score_element {
+  font-size: 17px;
+  font-family: 'Roboto';
+  font-weight: 600;
+}
