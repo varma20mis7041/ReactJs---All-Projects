@@ -1,0 +1,97 @@
+/* Write your code here. */
+.win_or_lose_bg_container {
+  min-height: 100vh;
+}
+.win_or_lose_navbar_container {
+  padding: 20px 80px 20px 80px;
+  height: 11vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-image: linear-gradient(to Right, #b2a7eb, #c8b5e7);
+  color: #ffffff;
+  align-items: center;
+}
+
+.win_or_lose_emoji_logo_img_element {
+  height: 35px;
+  width: 35px;
+  
+}
+.win_or_lose_logo_heading_element {
+  font-size: 25px;
+  font-family: 'Roboto';
+  font-weight: 600;
+}
+.results_page_bg_container {
+  margin-top: 0px;
+  height: 89vh;
+  background-image: linear-gradient(135deg, #9796f0, #b2a7eb, #fbc7d4);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.results_card_container {
+  height: 80vh;
+  width: 60vw;
+  background-color: #ffffff33;
+  border: 3px solid #ffffff30;
+  border-radius: 15px;
+}
+.results_card_container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding: 20px;
+}
+.results_description_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+.win_or_lose_score_container {
+  display: flex;
+  flex-direction: column;
+  height: 40vh;
+  justify-content: flex-start;
+  align-items: center;
+}
+.result_description_heading {
+  font-size: 60px;
+  font-family: 'Roboto';
+  font-weight: 600;
+  color: #ffffff;
+}
+.result_img_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.score_heading_element {
+  font-size: 40px;
+  font-family: 'Roboto';
+  font-weight: 600;
+  color: #ffffff;
+  margin-bottom: 0px;
+}
+.score_display_element {
+  font-size: 50px;
+  color: #6a59ff;
+  font-weight: 600;
+  font-family: 'Roboto';
+  margin-bottom: 5px;
+  margin-top: 0px;
+}
+.play_again_button {
+  height: 50px;
+  width: 120px;
+  border-width: 0px;
+  background-color: #ffce27;
+  border-radius: 15px;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 600;
+  color: #3d3d3d;
+}
