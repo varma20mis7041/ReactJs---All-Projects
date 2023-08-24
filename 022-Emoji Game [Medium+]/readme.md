@@ -7,11 +7,9 @@ The app must have the following functionalities
  2a)If it is not the same as any of the previously clicked emojis, then the Score should be incremented by one
  
  2b)If all the emojis are clicked exactly once
- 
        2a1)Won Game view should be displayed
        
  2c)If it is the same as any of the previously clicked emojis
- 
     2c1)Lose Game view should be displayed
     
  2d)If the score achieved in the current game is higher than the previous scores then the Top Score should be updated accordingly
