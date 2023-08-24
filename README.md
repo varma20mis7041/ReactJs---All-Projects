@@ -24,4 +24,4 @@ Links for all the projects and web pages
 019) Comments App    - [[Link]](http://bvreactjs19.ccbp.tech)
 020) Appointments App    - [[Link]](http://bvreactjs20.ccbp.tech)
 021) Money Manager    - [[Link]](http://bvreactjs21.ccbp.tech)
-
+022) Emoji Game    - [[Link]](http://bvreactjs22.ccbp.tech)
