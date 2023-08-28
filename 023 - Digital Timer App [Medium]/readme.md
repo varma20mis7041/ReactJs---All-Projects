@@ -4,7 +4,7 @@ The default timer limit value should be 25 minutes
 
 When the Start button is clicked:
     - The Start text should change to Pause text
-    - The play icon should be replaced by a pause icon
+    - A pause icon should replace the play icon
     - The Timer status should change to Running
     - The Timer should start running backwards from the timer limit value set
     - If the Timer has been paused after starting, it should resume from where it was paused
