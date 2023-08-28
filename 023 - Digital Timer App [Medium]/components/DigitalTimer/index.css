@@ -1,0 +1,259 @@
+/* Write your CSS here */
+.digital_timer_bg_container {
+  min-height: 100vh;
+  background-image: linear-gradient(
+    to Right,
+    #ffffff,
+    #cffcf1,
+    #cffcf1,
+    #defafe
+  );
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+@media screen and (max-width: 769px) {
+  .digital_timer_bg_container {
+    background-image: linear-gradient(
+      to bottom,
+      #ffffff,
+      #cffcf1,
+      #cffcf1,
+      #defafe
+    );
+  }
+}
+.digital_timer_heading {
+  font-size: 35px;
+  font-family: 'Roboto';
+  text-align: center;
+  color: #1e293b;
+  font-weight: 500;
+}
+.digital_timer_container {
+  width: 85vw;
+  height: 80vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0px 60px 0px 60px;
+}
+@media screen and (max-width: 768px) {
+  .digital_timer_container {
+    flex-direction: column;
+  }
+}
+.time_container_card {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/digital-timer-elapsed-bg.png');
+  background-size: cover;
+  background-position: center;
+  width: 600px;
+  height: 450px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+@media screen and (max-width: 768px) {
+  .time_container_card {
+    width: 450px;
+    height: 320px;
+  }
+}
+@media (max-width: 576px) {
+  .time_container_card {
+    width: 320px;
+    height: 250px;
+  }
+}
+@media (max-width: 400px) {
+  .time_container_card {
+    width: 280px;
+    height: 250px;
+  }
+  .digital_timer_container{
+      flex-direction: column;
+      justify-content: space-evenly;
+      align-items: center;
+  }
+}
+@media (min-width: 992px) {
+  .time_container_card {
+    width: 600px;
+    height: 600px;
+  }
+}
+.timer_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  width: 180px;
+  height: 180px;
+  border-radius: 180px;
+}
+@media screen and (max-width: 768px) {
+  .timer_container {
+    width: 90px;
+    height: 90px;
+  }
+}
+.timer_container_time_element {
+  font-size: 40px;
+  font-family: 'Roboto';
+  font-weight: 600;
+  color: #0f172a;
+  margin-bottom: 0px;
+  color: #00d9f3;
+}
+.timer_container_play_pause_element {
+  font-size: 16px;
+  color: #0f172a;
+  font-family: 'Roboto';
+  font-weight: 500;
+}
+@media screen and (max-width: 768px) {
+  .timer_container_time_element {
+    font-size: 26px;
+  }
+  .timer_container_play_pause_element {
+    font-size: 12px;
+  }
+}
+.start_container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.reset_container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.start_and_restart_container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 20vw;
+}
+@media screen and (max-width: 768px) {
+  .start_and_restart_container {
+    width: 70vw;
+    justify-content: space-evenly;
+  }
+}
+.timer_result_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.start_stop_button {
+  border-width: 0px;
+  background-color: transparent;
+  padding: 0px;
+  cursor: pointer;
+  font-size: 35px;
+  font-family: 'Roboto';
+  font-weight: 600;
+  color: #0f172a;
+  display: flex;
+  align-items: center;
+}
+.start_stop_img_element {
+  margin: 0px;
+  height: 40px;
+  width: 40px;
+  margin-right: 10px;
+}
+@media screen and (max-width: 768px) {
+  .start_stop_button {
+    font-size: 25px;
+  }
+  .start_stop_img_element {
+    height: 25px;
+    width: 25px;
+  }
+}
+.reset_button {
+  border-width: 0px;
+  background-color: transparent;
+  padding: 0px;
+  cursor: pointer;
+  font-size: 35px;
+  font-family: 'Roboto';
+  font-weight: 600;
+  color: #0f172a;
+  display: flex;
+  align-items: center;
+}
+.reset_img_element {
+  margin: 0px;
+  height: 40px;
+  width: 40px;
+  margin-right: 10px;
+}
+@media screen and (max-width: 768px) {
+  .start_stop_button {
+    font-size: 25px;
+  }
+  .start_stop_img_element {
+    height: 25px;
+    width: 25px;
+  }
+  .reset_button {
+    font-size: 25px;
+  }
+  .reset_img_element {
+    height: 25px;
+    width: 25px;
+  }
+}
+.set_timer_container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 10vw;
+}
+@media screen and (max-width:768px){
+.set_timer_container{
+    width: 20vw;
+}    
+}
+@media screen and (max-width:500px){
+.set_timer_container{
+    width: 40vw;
+}
+}
+.set_timer_limit_element {
+  font-size: 15px;
+  font-weight: 500;
+  color: #0f172a;
+  margin-bottom: 0px;
+}
+.set_timer_button {
+  padding: 0px;
+  border-width: 0px;
+  cursor: pointer;
+  font-size: 30px;
+  background-color: transparent;
+  font-weight: 600;
+  color: #0f172a;
+}
+.set_timer_element {
+  height: 50px;
+  width: 90px;
+  background-image: linear-gradient(to Right, #00f1af, #00d9f3);
+  border-radius: 5px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  color: #0f172a;
+  font-size: 30px;
+  font-weight: 600;
+}
