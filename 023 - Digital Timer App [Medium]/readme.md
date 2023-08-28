@@ -2,6 +2,7 @@ Note : this site was builted only for large and small divices only.
 
 The default timer limit value should be 25 minutes
 
+
 When the Start button is clicked:
     - The Start text should change to Pause text
     - A pause icon should replace the play icon
