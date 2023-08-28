@@ -1,5 +1,3 @@
-Note : this site was builted only for large and small divices only.
-
 ## Timer Application Specifications
 
 The default timer limit value should be 25 minutes.
