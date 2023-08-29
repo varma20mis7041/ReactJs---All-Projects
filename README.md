@@ -26,3 +26,4 @@ Links for all the projects and web pages
 021) Money Manager    - [[Link]](http://bvreactjs21.ccbp.tech)
 022) Emoji Game    - [[Link]](http://bvreactjs22.ccbp.tech)
 023) Digital Timer App - [[Link]](http://bvreactjs23.ccbp.tech)
+024) Reusable banner       -  [[Link]](http://bvreactjs24.ccbp.tech)
