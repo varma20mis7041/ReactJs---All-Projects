@@ -1,0 +1,120 @@
+/* Write CSS here */
+.stop_watch_bg_container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/stopwatch-lg-bg.png');
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 100vw;
+}
+@media screen and (min-width: 1100px) {
+  .stop_watch_bg_container {
+    min-height: 100vh;
+  }
+}
+.stopwatch_timer_container {
+  height: 70vh;
+  width: 50vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+@media (max-width: 768px) {
+  .stopwatch_timer_container {
+    width: 90vw;
+    height: 50vh;
+  }
+  .stop_watch_bg_container {
+    align-items: center;
+    background-image: url('https://assets.ccbp.in/frontend/react-js/stopwatch-sm-bg.png');
+  }
+}
+.stopwatch_main_heading {
+  font-size: 60px;
+  font-family: 'Roboto';
+  font-weight: 500;
+  color: #333333;
+  margin-bottom: 10px;
+}
+.timer_card_container {
+  height: 300px;
+  width: 350px;
+  box-shadow: 0px 4px 16px 0 #bfbfbf;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background-color: #ffffff;
+}
+@media screen and (max-width: 768px) {
+  .stopwatch_main_heading {
+    font-size: 40px;
+    margin-top: 0px;
+  }
+  .timer_card_container {
+    height: 250px;
+  }
+}
+.timer_heading {
+  font-size: 20px;
+  font-family: 'Roboto';
+  color: #333333;
+  margin-left: 10px;
+}
+.timer_img_heading_containe {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.timer_img {
+  height: 25px;
+  width: 25px;
+}
+.timer_element {
+  font-size: 60px;
+  font-family: 'Roboto';
+  font-weight: 500;
+  color: #333333;
+  margin-top: 0px;
+  margin-bottom: 15px;
+}
+.timer_control_buttons_container {
+  width: 320px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 40px;
+}
+.timer_control_button {
+  height: 40px;
+  width: 70px;
+  border-width: 0px;
+  font-weight: 500;
+  font-size: 14px;
+  font-family: 'Roboto';
+  cursor: pointer;
+  color: #ffffff;
+  border-radius: 5px;
+}
+@media screen and (max-width: 768px) {
+  .timer_control_button {
+    height: 35px;
+    width: 80px;
+  }
+}
+.start {
+  background-color: #1db05f;
+}
+.stop {
+  background-color: #ef0d36;
+}
+.reset {
+  background-color: #eaa800;
+}
