@@ -11,7 +11,7 @@ class Stopwatch extends Component {
   }
 
   componentWillUnmount() {
-    this.clearInterval(this.timerId)
+    clearInterval(this.timerId)
   }
 
   onClickStart = () => {
