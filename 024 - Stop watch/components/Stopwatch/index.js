@@ -10,6 +10,10 @@ class Stopwatch extends Component {
     this.state = {totalSeconds: 0, isTimeRunning: false}
   }
 
+  componentWillUnmount() {
+    this.clearInterval(this.timerId)
+  }
+
   onClickStart = () => {
     this.setState({isTimeRunning: true})
     this.timerId = setInterval(this.tick, 1000)
