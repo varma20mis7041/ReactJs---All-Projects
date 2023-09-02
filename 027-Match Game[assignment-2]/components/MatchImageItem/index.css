@@ -1,0 +1,24 @@
+.match_img_element {
+  height: 100px;
+  width: 120px;
+  margin-left: 15px;
+  margin-bottom: 15px;
+  border-width: 0px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.image_button_element {
+  padding: 0px;
+  background-color: transparent;
+  border-width: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media (max-width: 768px) {
+  .match_img_element {
+    height: 70px;
+    width: 90px;
+    margin-left: 15px;
+  }
+}
