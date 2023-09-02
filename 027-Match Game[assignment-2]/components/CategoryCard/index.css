@@ -1,0 +1,41 @@
+.tab_button {
+  height: 50px;
+  width: 120px;
+  font-size: 26px;
+  font-family: 'Roboto';
+  font-weight: 500;
+  background-color: transparent;
+  color: #fec653;
+  padding: 0px;
+  border-width: 0px;
+  cursor: pointer;
+}
+.tab_button_container {
+  width: 90px;
+  margin-right: 20px;
+  border-width: 0px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 5px;
+}
+.active_tap_styles {
+  border-bottom-width: 4px;
+  border-style: solid;
+  border-color: #fec653;
+}
+@media (max-width: 768px) {
+  .tab_button {
+    height: 40px;
+    width: 80px;
+    font-size: 17px;
+  }
+  .tab_button_container {
+    width: 70px;
+    margin-right: 10px;
+  }
+  .active_tap_styles {
+    border-bottom-width: 2px;
+  }
+}
