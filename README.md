@@ -28,6 +28,6 @@ Links for all the projects and web pages
 023) Digital Timer App - [[Link]](http://bvreactjs23.ccbp.tech)
 024) Stop Watch       -  [[Link]](http://bvreactjs24.ccbp.tech)
 025) FAQs app       -  [[Link]](http://bvreactjs25.ccbp.tech)
-026) Password manager [Assignment 2]       -  [[Link]](http://bvreactjs26.ccbp.tech)
-026) Match Game [Assignment 3]       -  [[Link]](http://bvreactjs27.ccbp.tech) 
+026) Password manager [Assignment 1]       -  [[Link]](http://bvreactjs26.ccbp.tech)
+026) Match Game [Assignment 2]       -  [[Link]](http://bvreactjs27.ccbp.tech) 
   
