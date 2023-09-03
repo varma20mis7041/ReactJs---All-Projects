@@ -2,7 +2,7 @@
 
 Welcome to my repository where I showcase various React.js projects developed as part of my learning journey. Each project covers a range of React.js topics and practices.
 
-| Project Number | Project Name                | Live Demo                                           |
+| Application Number | Application Name                | Live Demo                                           |
 | -------------- | ---------------------------| --------------------------------------------------- |
 | 001            | Reusable Banner             | [Link](http://bvreactjs01.ccbp.tech)               |
 | 002            | Technology Cards            | [Link](http://bvreactjs2.ccbp.tech)                |
