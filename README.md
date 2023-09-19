@@ -31,3 +31,4 @@ Welcome to my repository where I showcase various React.js projects developed as
 | 025            | FAQs App                    | [Link](http://bvreactjs25.ccbp.tech)               |
 | 026            | Password Manager [Assignment 1] | [Link](http://bvreactjs26.ccbp.tech)            |
 | 027            | Match Game [Assignment 2]   | [Link](http://bvreactjs27.ccbp.tech)               |
+| 028            | React Blogs(fetch and route)| [Link](http://bvreactjs28.ccbp.tech)               |
