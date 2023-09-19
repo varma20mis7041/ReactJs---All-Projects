@@ -1,0 +1,54 @@
+/* Write your CSS code here */
+.author_image_element {
+  height: 35px;
+  width: 35px;
+  border-radius: 25px;
+  margin-right: 10px;
+}
+.blog_img_element {
+  height: 70vh;
+  width: 65vw;
+  border-radius: 10px;
+}
+
+.blog_item_card_bg_container {
+  width: 65vw;
+  font-family: 'Roboto';
+}
+@media (max-width: 768px) {
+  .blog_img_element {
+    height: 25vh;
+    width: 75vw;
+  }
+  .blog_item_card_bg_container {
+    width: 75vw;
+  }
+}
+.title_heading_element {
+  text-align: center;
+  font-size: 35px;
+  font-weight: 600;
+}
+.author_details_card_container {
+  display: flex;
+  align-items: center;
+}
+.author_heading_element {
+  font-size: 22px;
+}
+.blog_description_element {
+  font-size: 22px;
+  color: #2f4f4f;
+}
+@media (max-width: 768px) {
+  .title_heading_element {
+    font-size: 20px;
+    font-weight: 500;
+  }
+  .author_heading_element {
+    font-size: 15px;
+  }
+  .blog_description_element {
+    font-size: 15px;
+  }
+}
