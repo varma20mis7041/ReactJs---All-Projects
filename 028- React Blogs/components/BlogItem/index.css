@@ -1,0 +1,76 @@
+/* Write your CSS code here */
+.blog_item_card_container {
+  display: flex;
+  flex-direction: row;
+  padding: 20px;
+  border: 1px solid #8e8e8e;
+  margin: 20px 60px 20px 60px;
+  border-radius: 5px;
+  font-family: 'Roboto';
+  cursor: pointer;
+}
+@media (max-width: 768px) {
+  .blog_item_card_container {
+    flex-direction: column;
+    padding: 10px;
+    margin: 10px 30px 10px 30px;
+  }
+}
+.blog_details_card {
+  display: flex;
+  flex-direction: column;
+}
+.author_card_container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.title_img_element {
+  height: 250px;
+  width: 400px;
+  border-radius: 8px;
+  margin-right: 20px;
+}
+@media (max-width: 768px) {
+  .title_img_element {
+    width: 70vw;
+    height: 170px;
+    margin-left: 15px;
+    display: flex;
+    justify-content: center;
+  }
+}
+.avatar_img_element {
+  height: 40px;
+  width: 40px;
+  border-radius: 35px;
+  margin-right: 10px;
+}
+.topic_element {
+  color: #8e8e8e;
+  font-size: 20px;
+  margin-bottom: 0px;
+}
+.aurthor_element {
+  color: #8e8e8e;
+  font-size: 20px;
+}
+.title_element {
+  color: #000000;
+  font-size: 22px;
+  font-weight: 500;
+}
+.blog_item_link_element {
+  text-decoration: none;
+}
+@media (max-width: 768px) {
+  .title_element {
+    font-size: 20px;
+  }
+  .aurthor_element {
+    font-size: 17px;
+  }
+  .topic_element {
+    font-size: 17px;
+  }
+}
