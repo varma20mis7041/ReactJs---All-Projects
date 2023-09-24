@@ -1,0 +1,111 @@
+/* Write your CSS here */
+.latest_match_bg_container {
+  height: 60vh;
+  width: 80vw;
+  color: #ffffff;
+  font-family: Bree serif;
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #0f172a;
+  border-radius: 10px;
+  border-bottom: 1px solid;
+  padding: 0px 45px 0px 45px;
+}
+
+.left_side_bg_container {
+  display: flex;
+  width: 45vw;
+  justify-content: space-between;
+  align-items: center;
+}
+.left_side_container {
+  height: 35vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+@media (max-width: 768px) {
+  .latest_match_bg_container {
+    width: 93vw;
+    height: 90vh;
+    background-color: #0f172a;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  .left_side_bg_container {
+    width: 93vw;
+    height: 40vh;
+    padding: 20px;
+    border-bottom: 1px solid #ffffff;
+  }
+  .left_side_container {
+    height: 20vh;
+  }
+}
+.competing_team_main_heading_element {
+  font-size: 30px;
+  font-weight: 500;
+}
+.date_element {
+  font-size: 25px;
+  font-weight: 500;
+}
+.competing_team_logo_img_element {
+  height: 250px;
+  width: 200px;
+}
+hr {
+  display: none;
+}
+@media (max-width: 768px) {
+  .competing_team_logo_img_element {
+    height: 120px;
+    width: 120px;
+  }
+  .competing_team_main_heading_element {
+    font-size: 18px;
+  }
+  .date_element {
+    font-size: 18px;
+  }
+  .venue {
+    font-size: 15px;
+    margin-bottom: 5px;
+  }
+  .result {
+    font-size: 15px;
+  }
+  hr {
+    display: block;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+  }
+  .right_side_container {
+    width: 93vw;
+    height: 40vh;
+    padding: 20px;
+  }
+}
+
+.right_side_heading_element {
+  font-size: 22px;
+  font-weight: 500;
+  text-align: right;
+}
+.right_side_heading_answer_element {
+  font-size: 15px;
+  text-align: right;
+}
+@media (max-width: 768px) {
+  .right_side_heading_element {
+    font-size: 18px;
+    text-align: left;
+  }
+  .right_side_heading_answer_element {
+    font-size: 14px;
+    text-align: left;
+  }
+}
