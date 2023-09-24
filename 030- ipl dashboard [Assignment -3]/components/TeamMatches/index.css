@@ -1,0 +1,78 @@
+/* Write your CSS here */
+.team_matches_bg_container {
+  min-height: 250vh;
+  padding: 70px 70px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.RCB {
+  background-image: linear-gradient(to Bottom, #ec1c24, #1e293b);
+}
+.KXP {
+  background-image: linear-gradient(to Bottom, #ed1b24, #1e293b);
+}
+.DC {
+  background-image: linear-gradient(to Bottom, #00008b, #1e293b);
+}
+.CSK {
+  background-image: linear-gradient(to Bottom, #ffff3c, #1e293b);
+}
+.RR {
+  background-image: linear-gradient(to Bottom, #254aa5, #1e293b);
+}
+.SH {
+  background-image: linear-gradient(to Bottom, #000000, #1e293b);
+}
+.MI {
+  background-image: linear-gradient(to Bottom, #004ba0, #1e293b);
+}
+.KKR {
+  background-image: linear-gradient(to Bottom, #2e0854, #1e293b);
+}
+.banner_url_element {
+  width: 80vw;
+  height: 50vh;
+}
+@media (max-width: 768px) {
+  .team_matches_bg_container {
+    padding: 50px 50px;
+  }
+  .banner_url_element {
+    width: 93vw;
+    height: 20vh;
+  }
+}
+.latest_matches_heading_container {
+  display: flex;
+  width: 80vw;
+}
+.heading_element {
+  margin-bottom: 0px;
+  font-size: 25px;
+  font-weight: 500;
+  color: #ffffff;
+  font-family: Bree serif;
+}
+@media (max-width: 768px) {
+  .heading_element {
+    font-size: 16px;
+  }
+  .latest_matches_heading_container {
+    width: 93vw;
+  }
+}
+
+.match_results_bg_container {
+  width: 80vw;
+  padding: 0px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  list-style-type: none;
+}
+@media (max-width: 768px) {
+  .match_results_bg_container {
+    width: 93vw;
+  }
+}
