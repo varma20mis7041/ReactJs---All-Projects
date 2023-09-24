@@ -1,0 +1,72 @@
+/* Write your CSS here */
+.ipl_teams_bg_container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/ipl-dashboard-lg-bg.png');
+  background-size: cover;
+  height: 110vh;
+  background-position: bottom;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ipl_teams_card_container {
+  height: 90vh;
+  width: 60vw;
+}
+.main_heading_and_logo_container {
+  width: 60vw;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+.logo_element {
+  margin-right: 15px;
+  height: 80px;
+  width: 50px;
+}
+.home_page_main_heading {
+  font-size: 35px;
+  font-family: Bree Serif;
+  font-weight: 600;
+  color: #ffffff;
+}
+@media (max-width: 768px) {
+  .ipl_teams_bg_container {
+    height: 100vh;
+  }
+  .ipl_teams_card_container {
+    height: 90vh;
+    width: 90vw;
+  }
+  .main_heading_and_logo_container {
+    width: 80vw;
+  }
+  .logo_element {
+    height: 40px;
+    width: 25px;
+  }
+  .home_page_main_heading {
+    font-size: 20px;
+    font-weight: 500;
+  }
+}
+.ipl_teams_container {
+  list-style-type: none;
+  padding: 0px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.home_loader {
+  display: flex;
+  justify-content: center;
+  height: 90vh;
+  width: 60vw;
+  align-items: center;
+}
+@media (max-width: 768px) {
+  .home_loader {
+    width: 90vw;
+    align-items: flex-start;
+    margin-top: 100px;
+  }
+}
