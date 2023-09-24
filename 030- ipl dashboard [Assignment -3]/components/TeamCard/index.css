@@ -1,0 +1,45 @@
+/* Write your CSS here */
+.team_card_container {
+  height: 120px;
+  width: 350px;
+  display: flex;
+  display: flex;
+  justify-content: space-around;
+  background-color: #ffffff33;
+  margin-bottom: 20px;
+  border: 2px solid #ffffff;
+  border-radius: 5px;
+  align-items: center;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.team_img_url_element {
+  height: 110px;
+  width: 110px;
+  margin-right: 10px;
+}
+.team_heading {
+  font-size: 25px;
+  font-weight: 500;
+  font-family: Bree Serif;
+  text-align: center;
+  color: #ffffff;
+}
+.link_element {
+  text-decoration: none;
+}
+@media (max-width: 768px) {
+  .team_card_container {
+    width: 150px;
+    height: 90px;
+    border-radius: 10px;
+  }
+  .team_img_url_element {
+    height: 45px;
+    width: 45px;
+  }
+  .team_heading {
+    font-size: 13px;
+  }
+}
