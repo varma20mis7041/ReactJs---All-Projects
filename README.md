@@ -33,4 +33,5 @@ Welcome to my repository where I showcase various React.js projects developed as
 | 027            | Match Game [Assignment 2]   | [Link](http://bvreactjs27.ccbp.tech)               |
 | 028            | React Blogs(fetch and route)| [Link](http://bvreactjs28.ccbp.tech)               |
 | 029            | Crypto Currency Tracker     | [Link](http://bvreactjs29.ccbp.tech)               |
-| 030            | IPL Dash Board [Assignment 3]     | [Link](http://bvreactjs30.ccbp.tech)               |
+| 030            | IPL Dash Board [Assignment 3]| [Link](http://bvreactjs30.ccbp.tech)               |
+| 031            | Registration Form validation| [Link](http://bvreactjs31.ccbp.tech)               |
