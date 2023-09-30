@@ -52,7 +52,7 @@ class RegistrationForm extends Component {
   }
 
   onClickSubmitAnotherResponse = () => {
-    this.setState({successPage: false})
+    this.setState({successPage: false, firstName: '', lastName: ''})
   }
 
   registerForm = () => {
