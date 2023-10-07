@@ -1,0 +1,32 @@
+/* Write your CSS here */
+.events_manager_bg_container {
+  display: flex;
+  align-items: center;
+}
+.events_bg_container {
+  width: 70vw;
+  padding: 50px 100px 50px 100px;
+  background-image: linear-gradient(to right, #475569, #3a4b63);
+}
+.events_heading_element {
+  font-family: 'Roboto';
+  color: #f8fafc;
+  font-size: 30px;
+  font-weight: 600;
+}
+.events_list_container {
+  height: 150vh;
+  list-style-type: none;
+  padding: 0px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0px;
+}
+.registration_details_bg_container {
+  display: flex;
+  justify-content: center;
+  align-content: flex-start;
+  height: 100vh;
+  width: 29vw;
+}
