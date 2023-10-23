@@ -1,0 +1,50 @@
+/* Write your CSS here */
+.repository_item_card_container {
+  height: 50vh;
+  width: 25vw;
+  background-color: #f8f8ff;
+  border-radius: 15px;
+  margin-bottom: 20px;
+  padding: 40px 40px;
+  margin-right: 8px;
+  margin-left: 13px;
+}
+@media (max-width: 768px) {
+  .repository_item_card_container {
+    width: 90vw;
+    margin-right: 0px;
+    height: 40vh;
+    padding: 30px 30px;
+  }
+}
+.repository_top_section_up_to_main_heading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.repository_img_element {
+  height: 120px;
+  width: 110px;
+  text-align: center;
+}
+.repo_item_each_detail_container {
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+}
+.repo_item_detailed_item_img_element {
+  height: 20px;
+  width: 20px;
+  margin-right: 5px;
+}
+.repository_heading_element {
+  font-family: 'Roboto';
+  color: #e73959;
+  font-size: 25px;
+}
+.repo_item_detail_element {
+  margin-top: 8px;
+  margin-bottom: 8px;
+  font-family: 'Roboto';
+  color: #1e293b;
+}
