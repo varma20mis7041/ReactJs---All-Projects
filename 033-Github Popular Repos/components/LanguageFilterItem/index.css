@@ -1,0 +1,27 @@
+/* Write your CSS here */
+.filter_button {
+  padding: 0px;
+  border: 0px;
+  background-color: transparent;
+  font-size: 19px;
+  font-weight: 500;
+  font-family: 'Roboto';
+  color: #0f172a;
+  cursor: pointer;
+  padding: 3px 10px 3px 10px;
+  outline: none;
+}
+
+@media (max-width: 768px) {
+  .filter_button {
+    font-size: 15px;
+    padding: 3px 8px 3px 8px;
+  }
+}
+.active {
+  border: 1.5px solid #0284c7;
+  border-radius: 15px;
+  display: flex;
+  color: #0284c7;
+  justify-content: center;
+}
