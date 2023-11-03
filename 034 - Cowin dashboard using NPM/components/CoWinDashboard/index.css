@@ -1,0 +1,52 @@
+/* Write your CSS here */
+.cowin_dashboard_bg_container {
+  min-height: 260vh;
+  background-color: #161625;
+  padding: 30px 100px 30px 100px;
+  font-family: 'Roboto';
+}
+@media (max-width: 768px) {
+  .cowin_dashboard_bg_container {
+    padding: 10px 15px 10px 15px;
+  }
+}
+.logo_container {
+  display: flex;
+  align-items: center;
+}
+.logo_heading_element {
+  color: #2cc6c6;
+}
+.website_logo {
+  height: 50px;
+  width: 50px;
+  margin-right: 10px;
+}
+.main_heading {
+  font-size: 30px;
+  font-weight: 500;
+  color: #cbd5e1;
+}
+.loader_bg_container {
+  height: 40vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.failure_page_bg_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+}
+.failure_view_img_element {
+  height: 50vh;
+  width: 30vw;
+}
+.failure_view_main_heading {
+  font-family: 'Bree Serif';
+  font-size: 30px;
+  font-weight: 500;
+  color: #ffffff;
+}
