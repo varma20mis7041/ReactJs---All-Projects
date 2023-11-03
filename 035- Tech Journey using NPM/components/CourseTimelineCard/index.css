@@ -1,0 +1,47 @@
+/* Write your CSS here */
+.course_card_title {
+  font-size: 29px;
+  font-family: 'Roboto';
+  font-weight: 600;
+  color: #171f46;
+}
+.tag_items_container {
+  display: flex;
+  width: 90%;
+  flex-wrap: wrap;
+}
+.tag_item {
+  padding: 8px;
+  font-size: 17px;
+  font-family: 'Roboto';
+  font-weight: 500;
+  background-color: #e2e8f1;
+  border-radius: 5px;
+  color: #1e293b;
+  margin-bottom: 5px;
+  margin-top: 5px;
+  margin-right: 10px;
+}
+.course_timeline_top_section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.duration_element {
+  font-family: 'Roboto';
+  font-size: 15px;
+  font-weight: 600;
+  color: #1e293b;
+  margin-left: 4px;
+}
+.course_card_description {
+  font-family: 'Roboto';
+  font-size: 18px;
+  color: #1e293b;
+  font-weight: 400;
+  margin-top: 0px;
+}
+.clock_icon_duration_container {
+  display: flex;
+  align-items: center;
+}
