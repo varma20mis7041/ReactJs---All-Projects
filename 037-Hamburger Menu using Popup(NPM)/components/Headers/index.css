@@ -1,0 +1,107 @@
+/* Write your CSS here */
+.header_bg_container {
+  height: 10vh;
+  background-color: #dcdcdc;
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 20px 0px 20px;
+  align-items: center;
+  margin: 0px;
+}
+.logo {
+  height: 50px;
+  width: 50px;
+}
+.ham_burger_menu_icon_img_element {
+  height: 50px;
+  width: 50px;
+}
+@media screen and (max-width: 768px) {
+  .logo {
+    height: 35px;
+    width: 35px;
+  }
+  .ham_burger_menu_icon_img_element {
+    height: 35px;
+    width: 35px;
+  }
+}
+.ham_burger_button {
+  padding: 0px;
+  background-color: transparent;
+  border: 0px;
+  cursor: pointer;
+}
+.popup_bg_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  width: 50vw;
+}
+@media (max-width: 768px) {
+  .popup_bg_container {
+    height: 40vh;
+    width: 50vw;
+  }
+}
+.pop_up_library {
+  border-width: 3px;
+}
+.popup_items_container {
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+  padding: 0px;
+}
+.popup_close_button_container {
+  align-self: flex-end;
+}
+.close_mark_icon {
+  height: 30px;
+  width: 20px;
+  margin-right: 10px;
+}
+.close_button {
+  padding: 0px;
+  border: 0px;
+  background-color: transparent;
+  cursor: pointer;
+}
+.menu_container {
+  display: flex;
+  align-items: center;
+}
+.menu_item_icon {
+  height: 40px;
+  width: 40px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+.menu_item_heading {
+  font-family: 'Roboto';
+  font-size: 40px;
+  font-weight: 500;
+  color: #000000;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+.link_router_component {
+  text-decoration: none;
+}
+.link_at_logo {
+  text-decoration: none;
+}
+@media (max-width: 768px) {
+  .menu_item_heading {
+    font-size: 26px;
+  }
+  .menu_item_icon {
+    height: 30px;
+    width: 30px;
+  }
+}
