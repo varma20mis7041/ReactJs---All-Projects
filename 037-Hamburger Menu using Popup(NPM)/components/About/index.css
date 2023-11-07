@@ -1,0 +1,21 @@
+/* Write your CSS here */
+.about_bg_container {
+  height: 100vh;
+}
+.about_lg_img {
+  height: 100%;
+  width: 100%;
+}
+.about_sm_img {
+  display: none;
+}
+@media screen and (max-width: 768px) {
+  .about_sm_img {
+    display: block;
+    height: 100%;
+    width: 100%;
+  }
+  .about_lg_img {
+    display: none;
+  }
+}
