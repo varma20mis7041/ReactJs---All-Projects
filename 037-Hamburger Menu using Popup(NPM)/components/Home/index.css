@@ -1,0 +1,25 @@
+/* Write your CSS here */
+* {
+  margin: 0px;
+}
+.home_bg_container {
+  height: 100vh;
+}
+.home_lg_img {
+  height: 100%;
+  width: 100%;
+}
+.home_sm_img {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .home_sm_img {
+    height: 100%;
+    width: 100%;
+    display: block;
+  }
+  .home_lg_img {
+    display: none;
+  }
+}
