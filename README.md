@@ -40,5 +40,6 @@ Welcome to my repository where I showcase various React.js projects developed as
 | 034            | CoWin Dashbord using NPM(recharts)| [Link](http://bvreactjs34.ccbp.tech)            |
 | 035            | My ccbp Journey using NPM(chrono)| [Link](http://bvreactjs35.ccbp.tech)               |
 | 036            | Planets App using NPM(slick) |  [Link](http://bvreactjs36.ccbp.tech)              |
-| 037            | Hamburger Menu using NPM(slick) |  [Link](http://bvreactjs37.ccbp.tech)              |
+| 037            | Hamburger Menu using NPM(popup) |  [Link](http://bvreactjs37.ccbp.tech)              |
+| 038            | Prime Video Home using NPM(slick,popup,video player) |  [Link](http://bvreactjs38.ccbp.tech)              |
 
