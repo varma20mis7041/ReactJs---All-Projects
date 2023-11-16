@@ -1,0 +1,11 @@
+.employee_type_label_text {
+  color: #f1f5f9;
+  font-size: px;
+  font-family: 'Roboto';
+  font-weight: 500;
+  margin-left: 6px;
+  cursor: pointer;
+}
+.employee_type_container {
+  margin-bottom: 13px;
+}
