@@ -1,0 +1,22 @@
+.not_found_bg_container {
+  background-color: #000000;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.page_not_found_heading_element {
+  color: #ffffff;
+  font-size: 30px;
+  font-family: 'Roboto';
+  font-weight: 500;
+  margin-bottom: 0px;
+}
+.page_not_found_description {
+  color: #cbd5e1;
+  font-size: 15px;
+  font-weight: 400;
+  font-family: 'Roboto';
+  text-align: center;
+}
