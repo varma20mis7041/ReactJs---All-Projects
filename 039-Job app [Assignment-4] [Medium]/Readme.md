@@ -1,4 +1,4 @@
-The app must have the following functionalities:
+The app have the following functionalities:
 
 1. **Login Route:**
    - When invalid credentials are provided, and the Login button is clicked, then the error message received from the response should be displayed.
