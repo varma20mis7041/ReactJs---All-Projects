@@ -1,0 +1,10 @@
+.salary_label_elements {
+  color: #f1f5f9;
+  font-size: px;
+  font-family: 'Roboto';
+  font-weight: 500;
+  margin-left: 6px;
+}
+.salary_range_bg_container {
+  margin-bottom: 13px;
+}
