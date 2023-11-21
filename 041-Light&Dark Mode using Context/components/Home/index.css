@@ -1,0 +1,32 @@
+/* Write your CSS here */
+.home_bg_container {
+  height: 100vh;
+}
+.home_card_container {
+  height: 92%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.home_img_element {
+  height: 200px;
+  width: 200px;
+}
+.home_main_heading {
+  font-size: 40px;
+  font-family: 'Roboto';
+  font-weight: 700;
+}
+.home_dark_bg {
+  background-color: #000000;
+}
+.home_light_bg {
+  background-color: #ffffff;
+}
+.home_dark_mode_main_heading {
+  color: #ffffff;
+}
+.home_light_mode_main_heading {
+  color: #000000;
+}
