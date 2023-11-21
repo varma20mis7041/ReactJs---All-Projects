@@ -22,20 +22,6 @@ const ConfigurationController = () => (
             <div className="check_box_container">
               <input
                 type="checkbox"
-                checked={showContent}
-                id="contentCheckbox"
-                onClick={onToggleShowContent}
-              />
-              <label
-                htmlFor="contentCheckbox"
-                className="check_box_label_element"
-              >
-                Content
-              </label>
-            </div>
-            <div className="check_box_container">
-              <input
-                type="checkbox"
                 id="leftNavbarCheckbox"
                 checked={showLeftNavbar}
                 onClick={onToggleShowLeftNavbar}
@@ -45,6 +31,20 @@ const ConfigurationController = () => (
                 className="check_box_label_element"
               >
                 Left Navbar
+              </label>
+            </div>
+            <div className="check_box_container">
+              <input
+                type="checkbox"
+                checked={showContent}
+                id="contentCheckbox"
+                onClick={onToggleShowContent}
+              />
+              <label
+                htmlFor="contentCheckbox"
+                className="check_box_label_element"
+              >
+                Content
               </label>
             </div>
             <div className="check_box_container">
