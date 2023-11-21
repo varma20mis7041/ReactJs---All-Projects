@@ -1,0 +1,80 @@
+/* Write your CSS here */
+.navbar_items_bg_container {
+  height: 8vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style-type: none;
+  padding: 0px 20px 0px 20px;
+  margin: 0px;
+}
+@media screen and (max-width: 768px) {
+  .navbar_items_bg_container {
+    padding: 0px 10px 0px 10px;
+  }
+}
+.nav_img_element {
+  height: 35px;
+  width: 35px;
+}
+.nav_item_home_and_about_container {
+  display: flex;
+  align-items: center;
+  width: 120px;
+  justify-content: space-between;
+}
+@media screen and (max-width: 768px) {
+  .nav_item_home_and_about_container {
+    width: 90px;
+  }
+}
+.nav_item_heading_element {
+  font-size: 15px;
+  font-weight: 600;
+  font-family: 'Roboto';
+  cursor: pointer;
+}
+.nav_item_link_element {
+  text-decoration: none;
+}
+.theme_change_button_element {
+  padding: 0px;
+  background-color: transparent;
+  border-width: 0px;
+  cursor: pointer;
+}
+
+.white_color {
+  color: #ffffff;
+}
+.black_color {
+  color: #000000;
+}
+.white_bg {
+  background-color: #ffffff;
+  border-style: solid;
+  border-width: 0px;
+  border-bottom-width: 2px;
+  border-bottom-color: #dcdcdc;
+}
+
+.brown_bg {
+  background-color: #333333;
+}
+.last_container {
+  text-align: center;
+  background-color: black;
+  color: white;
+  font-family: Roboto;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (max-width: 600px) {
+  .last_container {
+    height: 40px;
+    font-size: 12px;
+  }
+}
