@@ -1,0 +1,21 @@
+/* Write your CSS here */
+.header_bg_container {
+  background-color: #cbd5e1;
+  height: 15vh;
+  width: 80vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+}
+@media screen and (max-width: 768px) {
+  .header_bg_container {
+    margin-bottom: 8px;
+  }
+}
+.header_section_main_heading_element {
+  font-size: 50px;
+  font-family: 'Roboto';
+  font-weight: 600;
+  color: #475569;
+}
