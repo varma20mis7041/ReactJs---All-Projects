@@ -1,0 +1,28 @@
+/* Write your CSS here */
+.controller_bg_container {
+  height: 18vh;
+  background-color: #475569;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.controller_checkbox_container {
+  display: flex;
+}
+.layout_main_heading {
+  color: #f1f5f9;
+  font-size: 35px;
+  font-family: 'Roboto';
+  font-weight: 600;
+  margin-top: 0px;
+}
+.check_box_container {
+  margin-top: 5px;
+  margin-right: 10px;
+}
+.check_box_label_element {
+  font-family: 'Roboto';
+  color: #e2e8f0;
+  cursor: pointer;
+}
