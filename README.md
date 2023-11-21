@@ -44,4 +44,5 @@ Welcome to my repository where I showcase various React.js projects developed as
 | 038            | Prime Video Home using NPM(slick,popup,video player) |  [Link](http://bvreactjs38.ccbp.tech)              |
 | 039            | Job App [Assignment 4] [Medium] |  [Link](http://bvreactjs39.ccbp.tech)              |
 | 040            | Layout Builder using Context |  [Link](http://bvreactjs40.ccbp.tech)              |
+| 041            | Light & Dark mode using Context |  [Link](http://bvreactjs41.ccbp.tech)              |
 
