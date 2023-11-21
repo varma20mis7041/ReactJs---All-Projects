@@ -1,0 +1,16 @@
+/* Write your CSS here */
+.footer_bg_container {
+  background-color: #cbd5e1;
+  height: 15vh;
+  width: 80vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+}
+.footer_section_main_heading {
+  font-size: 50px;
+  font-family: 'Roboto';
+  font-weight: 600;
+  color: #475569;
+}
