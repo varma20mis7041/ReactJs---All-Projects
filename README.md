@@ -45,6 +45,7 @@ Welcome to my repository where I showcase various React.js projects developed as
 | 039            | Job App [Assignment 4] [Medium] |  [Link](http://bvreactjs39.ccbp.tech)              |
 | 040            | Layout Builder using Context |  [Link](http://bvreactjs40.ccbp.tech)              |
 | 041            | Light & Dark mode using Context |  [Link](http://bvreactjs41.ccbp.tech)              |
+| 042            | NxtTrendz (e-commerce) [Medium+] |  [Link](http://bvreactjs42.ccbp.tech)              |
 | 043            | Meme Generator using StyledComponents |  [Link](http://bvreactjs43.ccbp.tech)         |
 | 044            | Gradient Generator using StyledComponents |  [Link](http://bvreactjs44.ccbp.tech)         |
 | 045            | Rock Paper Scissors [Final Assignment-1] |  [Link](http://bvreactjs45.ccbp.tech)         |
