@@ -1,4 +1,4 @@
-# Video Sharing Web App
+#NxtWatch Web App
 
 ## Initial Theme
 
