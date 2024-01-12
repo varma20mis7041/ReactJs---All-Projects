@@ -108,7 +108,7 @@ class AllProductsSection extends Component {
 
     let url
     if (activeOptionId === 'NONE') {
-      url = 'https://apis.ccbp.in/products'
+      url = `https://apis.ccbp.in/products?title_search=${searchInput}&category=${categoryId}&rating=${ratingId}`
     } else {
       url = `https://apis.ccbp.in/products?sort_by=${activeOptionId}&title_search=${searchInput}&category=${categoryId}&rating=${ratingId}`
     }
